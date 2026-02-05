@@ -36,7 +36,7 @@ export default function Landing() {
         {/* Buttons */}
         <TouchableOpacity
           style={styles.primaryBtn}
-          onPress={() => router.push("/user/dashboard")}
+          onPress={() => router.push("/(user)/dashboard")}
           activeOpacity={0.9}
         >
           <Text style={styles.primaryText}>Get Started</Text>
@@ -44,7 +44,7 @@ export default function Landing() {
 
         <TouchableOpacity
           style={styles.secondaryBtn}
-          onPress={() => router.push("/auth/login")}
+          onPress={() => router.push("/(auth)/login")}
           activeOpacity={0.9}
         >
           <Text style={styles.secondaryText}>Login</Text>
