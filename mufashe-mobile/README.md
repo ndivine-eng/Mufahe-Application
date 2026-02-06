@@ -9,7 +9,8 @@ This repository contains the **initial MVP** of the system and demonstrates the 
 
 ## GitHub Repository
 🔗 **Repository link:**  
-https://github.com/ndivine-eng/Mufahe-Application
+https://github.com/ndivine-eng/Mufahe-Application/tree/main/mufashe-mobile
+
 
 
 ---
