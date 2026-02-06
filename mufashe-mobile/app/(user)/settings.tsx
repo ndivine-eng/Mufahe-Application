@@ -83,9 +83,9 @@ export default function SettingsScreen() {
 
         {/* Bottom nav (UI only) */}
         <View style={styles.bottomNav}>
-          <NavItem label="Home" icon="🏠" onPress={() => router.replace("/user/dashboard")} />
-          <NavItem label="Laws" icon="⚖️" onPress={() => router.replace("/user/library")} />
-          <NavItem label="Ask AI" icon="💬" onPress={() => router.replace("/user/consult")} />
+          <NavItem label="Home" icon="🏠" onPress={() => router.replace("/(user)/dashboard")} />
+          <NavItem label="Laws" icon="⚖️" onPress={() => router.replace("/(user)/library")} />
+          <NavItem label="Ask AI" icon="💬" onPress={() => router.replace("/(user)/consult")} />
           <NavItem label="Settings" icon="⚙️" active onPress={() => router.replace("/(user)/settings")} />
         </View>
       </View>

@@ -90,7 +90,7 @@ export default function Dashboard() {
         {/* Search / Prompt */}
         <TouchableOpacity
           activeOpacity={0.9}
-          onPress={() => router.push("/user/consult")}
+          onPress={() => router.push("/(user)/consult")}
           style={styles.searchWrap}
         >
           <Text style={styles.searchIcon}>🔍</Text>
@@ -108,7 +108,7 @@ export default function Dashboard() {
         {/* Categories */}
         <View style={styles.sectionRow}>
           <Text style={styles.sectionTitle}>Legal Categories</Text>
-          <TouchableOpacity onPress={() => router.push("/user/library")} activeOpacity={0.8}>
+          <TouchableOpacity onPress={() => router.push("/(user)/library")} activeOpacity={0.8}>
             <Text style={styles.seeAll}>See All</Text>
           </TouchableOpacity>
         </View>
@@ -121,7 +121,7 @@ export default function Dashboard() {
               activeOpacity={0.9}
               onPress={() =>
                 router.push({
-                  pathname: "/user/library",
+                  pathname: "/(user)/library",
                   params: { category: c.key },
                 })
               }
@@ -144,7 +144,7 @@ export default function Dashboard() {
               key={r.id}
               style={styles.recentItem}
               activeOpacity={0.9}
-              onPress={() => router.push("/user/history")}
+              onPress={() => router.push("/(user)/history")}
             >
               <View style={[styles.recentDot, { backgroundColor: idx === 0 ? "#2563EB" : "#16A34A" }]} />
               <View style={{ flex: 1 }}>
@@ -188,26 +188,26 @@ export default function Dashboard() {
 
       {/* Bottom nav (UI only for now) */}
       <View style={styles.bottomNav}>
-        <TouchableOpacity style={styles.navItem} onPress={() => router.replace("/user/dashboard")}>
+        <TouchableOpacity style={styles.navItem} onPress={() => router.replace("/(user)/dashboard")}>
           <Text style={styles.navIcon}>🏠</Text>
           <Text style={styles.navText}>Home</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity style={styles.navItem} onPress={() => router.push("/user/consult")}>
+        <TouchableOpacity style={styles.navItem} onPress={() => router.push("/(user)/consult")}>
            <Text style={styles.navIcon}>💬</Text>
            <Text style={styles.navText}>Ask Me</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity style={styles.navItem} onPress={() => router.push("/user/library")}>
+        <TouchableOpacity style={styles.navItem} onPress={() => router.push("/(user)/library")}>
          <Text style={styles.navIcon}>📘</Text>
          <Text style={styles.navTextActive}>Resources</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity style={styles.navItem} onPress={() => router.push("/user/profile")}>
+        <TouchableOpacity style={styles.navItem} onPress={() => router.push("/(user)/profile")}>
           <Text style={styles.navIcon}>👤</Text>
           <Text style={styles.navText}>Profile</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.navItem} onPress={() => router.push("/user/settings")}>
+        <TouchableOpacity style={styles.navItem} onPress={() => router.push("/(user)/settings")}>
           <Text style={styles.navIcon}>⚙️</Text>  
           <Text style={styles.navText}>Settings</Text>
         </TouchableOpacity>

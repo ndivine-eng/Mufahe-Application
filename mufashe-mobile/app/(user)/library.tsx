@@ -187,26 +187,26 @@ export default function LibraryScreen() {
 
       {/* Bottom nav (same style as your mockup, UI-only) */}
        <View style={styles.bottomNav}>
-              <TouchableOpacity style={styles.navItem} onPress={() => router.replace("/user/dashboard")}>
+              <TouchableOpacity style={styles.navItem} onPress={() => router.replace("/(user)/dashboard")}>
                 <Text style={styles.navIcon}>🏠</Text>
                 <Text style={styles.navTextActive}>Home</Text>
               </TouchableOpacity>
       
-              <TouchableOpacity style={styles.navItem} onPress={() => router.push("/user/consult")}>
+              <TouchableOpacity style={styles.navItem} onPress={() => router.push("/(user)/consult")}>
                  <Text style={styles.navIcon}>💬</Text>
                  <Text style={styles.navText}>Ask Me</Text>
               </TouchableOpacity>
       
-              <TouchableOpacity style={styles.navItem} onPress={() => router.push("/user/library")}>
+              <TouchableOpacity style={styles.navItem} onPress={() => router.push("/(user)/library")}>
                <Text style={styles.navIcon}>📘</Text>
                <Text style={styles.navText}>Resources</Text>
               </TouchableOpacity>
       
-              <TouchableOpacity style={styles.navItem} onPress={() => router.push("/user/profile")}>
+              <TouchableOpacity style={styles.navItem} onPress={() => router.push("/(user)/profile")}>
                 <Text style={styles.navIcon}>👤</Text>
                 <Text style={styles.navText}>Profile</Text>
               </TouchableOpacity>
-              <TouchableOpacity style={styles.navItem} onPress={() => router.push("/user/settings")}>
+              <TouchableOpacity style={styles.navItem} onPress={() => router.push("/(user)/settings")}>
                 <Text style={styles.navIcon}>⚙️</Text>  
                 <Text style={styles.navText}>Settings</Text>
               </TouchableOpacity>
