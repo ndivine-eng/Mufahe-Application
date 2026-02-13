@@ -11,7 +11,9 @@ This repository contains the **initial MVP** of the system and demonstrates the 
 🔗 **Repository link:**  
 https://github.com/ndivine-eng/Mufahe-Application/tree/main/mufashe-mobile
 
+## Figma Design 
 
+https://www.figma.com/design/mgGlpzgqEt5BiD0dJLD8Tx/Mufashe-Design?node-id=0-1&t=8Vh7ZhUxAWiIoY3D-1
 
 ---
 
